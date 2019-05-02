@@ -1,0 +1,10 @@
+{
+	"index.html": {
+		"resources": [
+			"html/shouye.html"
+		],
+		"refer": [
+			"html/shouye.html"
+		]
+	}
+}

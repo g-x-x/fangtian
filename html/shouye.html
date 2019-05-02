@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		 <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>首页</title>
+		<link  rel="stylesheet" href="../css/mui.min.css"/>
+		<link rel="stylesheet" href="../css/index.css"/>
+		<script src="../js/mui.min.js"></script>
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav" id="beij">
+			<a class="mui-icon mui-icon-location mui-pull-right"></a>
+			<div class="mui-title">
+			  <div class="teshu">
+				<span class="mui-icon mui-icon-search"></span>
+				<input type="text" placeholder="中铁阅山湖" class="inp">
+				<span class="mui-pull-right" id="inn">广告</span>
+			  </div>
+			</div>
+			<a href="#" class="guiyang mui-pull-left">贵阳</a>
+			<a class="mui-icon mui-icon-arrowdown mui-pull-left" id="rch"></a>
+		</header>
+		<!-- 下拉刷新容器开始 -->
+		<!--下拉刷新容器-->
+		<div id="pullrefresh" class="mui-content mui-scroll-wrapper">
+		  <div class="mui-scroll">
+			<!-- 数据列表--> 
+			<ul class="mui-table-view mui-table-view-chevron">
+			  <div id="slider" class="mui-slider" >
+			    <div class="mui-slider-group mui-slider-loop">
+			  	<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+			  	<div class="mui-slider-item mui-slider-item-duplicate">
+			  	  <a href="#">
+			  		<img src="../img/c3.jpg">
+			  	  </a>
+			  	</div>
+			  	<!-- 第一张-->
+			  	<div class="mui-slider-item">
+			  	  <a href="#">
+			  		<img src="../img/c1.jpg">
+			  	  </a>
+			  	</div>
+			  	<!-- 第二张 -->
+			  	<div class="mui-slider-item">
+			  	  <a href="#">
+			  		<img src="../img/c2.jpg">
+			  	  </a>
+			  	</div>
+			  	<!-- 第三张 -->
+			  	<div class="mui-slider-item">
+			  	  <a href="#">
+			  		<img src="../img/c3.jpg">
+			  	  </a>
+			  	</div>
+			  	<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+			  	<div class="mui-slider-item mui-slider-item-duplicate">
+			  	  <a href="#">
+			  		<img src="../img/c1.jpg">
+			  	  </a>
+			  	</div>
+			    </div>
+			    <div class="mui-slider-indicator">
+			  	<div class="mui-indicator mui-active"></div>
+			  	<div class="mui-indicator"></div>
+			  	<div class="mui-indicator"></div>
+			    </div>
+			  </div>
+			  <!-- 轮播图结束 -->
+			  <!-- 下面swiper开始 -->
+			  	<div class="mui-content" id="cont">
+					<div id="Gallery" class="mui-slider" style="margin-top:15px;">
+						<div class="mui-slider-group">
+							<div class="mui-slider-item">
+								<ul class="mui-table-view mui-grid-view mui-grid-9" id="grl">
+									<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3" style="border-bottom: none; border-right: none;">
+										<a href="#">
+											<span><img src="../img/a1.png"></span>
+											<div class="mui-media-body">买新房</div>
+										</a>
+									</li>
+									<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+										<a href="#">
+											<span><img src="../img/a2.png"></span>
+											<div class="mui-media-body" style="font-size: 12px;">买二手房</div>
+										</a>
+									</li>
+									<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+										<a href="#">
+											<span><img src="../img/a3.png"></span>
+											<div class="mui-media-body">找租房</div>
+										</a>
+									</li>
+									<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+										<a href="#">
+											<span><img src="../img/a4.png"></span>
+											<div class="mui-media-body">家居装修</div>
+										</a>
+									</li>
+									<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+										<a href="#">
+											<span><img src="../img/a5.png"></span>
+											<div class="mui-media-body">商铺</div>
+										</a>
+									</li>
+									<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+										<a href="#">
+											<span><img src="../img/a6.png"></span>
+											<div class="mui-media-body">查房价</div>
+										</a>
+									</li>
+									<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+										<a href="#">
+											<span><img src="../img/a7.png"></span>
+											<div class="mui-media-body">我要卖房</div>
+										</a>
+									</li>
+									<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+										<a href="#">
+											<span><img src="../img/a8.png"></span>
+											<div class="mui-media-body">我要出租</div>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="mui-slider-item">
+								<ul class="mui-table-view mui-grid-view mui-grid-9" id="grl">
+									<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+										<a href="#">
+											<span><img src="../img/a9.png"></span>
+											<div class="mui-media-body">天下拍</div>
+										</a>
+									</li>
+									<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+										<a href="#">
+											<span><img src="../img/a10.png"></span>
+											<div class="mui-media-body">免费设计</div>
+										</a>
+									</li>
+									<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+										<a href="#">
+											<span><img src="../img/a11.png"></span>
+											<div class="mui-media-body">写字楼</div>
+										</a>
+									</li>
+									<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+										<a href="#">
+											<span><img src="../img/a12.png"></span>
+											<div class="mui-media-body">地图找房</div>
+										</a>
+									</li>
+									<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+										<a href="#">
+											<span><img src="../img/a13.png"></span>
+											<div class="mui-media-body">找门店</div>
+										</a>
+									</li>
+									<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+										<a href="#">
+											<span><img src="../img/a14.png"></span>
+											<div class="mui-media-body">房贷计算</div>
+										</a>
+									</li>
+									<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+										<a href="#">
+											<span><img src="../img/a15.png"></span>
+											<div class="mui-media-body">找小区</div>
+										</a>
+									</li>
+									<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+										<a href="#">
+											<span><img src="../img/a16.png"></span>
+											<div class="mui-media-body">海外房产</div>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="mui-slider-item">
+						<ul class="mui-table-view mui-grid-view mui-grid-9" id="grl">
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<span><img src="../img/a17.png"></span>
+									<div class="mui-media-body">短租</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<span><img src="../img/a18.png"></span>
+									<div class="mui-media-body">直播</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<span><img src="../img/a19.png"></span>
+									<div class="mui-media-body">看房团</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<span><img src="../img/a20.png"></span>
+									<div class="mui-media-body">业主论坛</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<span><img src="../img/a21.png"></span>
+									<div class="mui-media-body">帮你找房</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<span><img src="../img/a22.png"></span>
+									<div class="mui-media-body">装修图库</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<span><img src="../img/a23.png"></span>
+									<div class="mui-media-body">装修报价</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<span><img src="../img/a24.png"></span>
+									<div class="mui-media-body">福利商城</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="mui-slider-item">
+						<ul class="mui-table-view mui-grid-view mui-grid-9" id="grl">
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<span><img src="../img/a25.png"></span>
+									<div class="mui-media-body">装修公司</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<span><img src="../img/a26.png"></span>
+									<div class="mui-media-body">装修案例</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+						</div>
+						<div class="mui-slider-indicator">
+							<div class="mui-indicator mui-active"></div>
+							<div class="mui-indicator"></div>
+							<div class="mui-indicator"></div>
+							<div class="mui-indicator"></div>
+						</div>
+					</div>
+				</div>
+			  <!-- 下面swiper结束 -->
+			</ul>
+		  </div>
+		</div> 
+		<!-- 下拉刷新容器结束
+		轮播图开始 -->
+		
+		<script>
+			mui.init({
+				pullRefresh: {
+					container: '#pullrefresh',
+					down: {
+						callback: pulldownRefresh
+					},
+				}
+			});
+			/**
+			 * 下拉刷新具体业务实现
+			 */
+			function pulldownRefresh() {
+				setTimeout(function() {
+					mui('#pullrefresh').pullRefresh().endPulldownToRefresh(); //refresh completed
+				}, 1500);
+		}
+				var gallery = mui('.mui-slider');
+				gallery.slider({
+				interval:3000//自动轮播周期，若为0则不自动播放，默认为0；
+			});
+		
+		</script>
+	</body>
+</html>

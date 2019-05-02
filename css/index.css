@@ -1,0 +1,50 @@
+.guiyang{
+	margin-left: 2px;
+	line-height: 45px;
+	font-size: 17px;
+}
+#rch{
+	margin-left: -7px;
+	font-size: 16px;
+	line-height:26px;
+}
+
+ #beij{
+	background: none;
+}
+.teshu{
+	width: 82%;
+	height: 36px;
+	border-radius: 5px;
+	background: white;
+	margin: 0 auto;
+	line-height: 39px;
+	margin-top: 4px;
+}
+.teshu .inp{
+	width: 65%;
+	height: 36px;
+	border: none;
+	/*background: red;*/
+}
+#inn{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+	margin-top: 10px;
+	font-size: 8px;
+	width:34px;
+	color: #C0C0C0;
+	margin-right: 5px;
+	border-radius:4px ;
+	border: 1px solid #CCCCCC;
+}
+#cont{
+	margin-top: -14px;
+	background-color: #FFFFFF;
+	border: none;
+}
+#grl{
+	background-color: #FFFFFF;
+	
+}

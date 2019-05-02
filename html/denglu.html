@@ -1,0 +1,192 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="../css/iconfont.css" />
+		<link rel="stylesheet" href="../css/denglu.css" />
+		<link rel="stylesheet" href="../css/swiper.min.css" />
+		<script src="../js/mui.min.js"></script>
+		<script type="text/javascript" src="../js/swiper.min.js" ></script>
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav"style="background: #FFFFFF;">
+		    <a class="mui-icon mui-icon-gear mui-pull-right"></a>
+		    <a class="mui-pull-right iconfont icon-scan mui-icon" style="margin-right: 10px;"></a>
+		    <p style="height: 43px;width: 100%;"></p>
+		    <ul class="mui-table-view" style="padding: 0; margin-left: -11px;margin-top: -9px; width: 110%;">
+		        <li class="mui-table-view-cell mui-media">
+		            <a href="javascript:;">
+		                <img class="mui-media-object mui-pull-left" id="yu" src="../img/d4.jpg">
+		                <div class="mui-media-body">
+		                    点击登录/注册<span class="shoucang mui-pull-right">签到有礼<span class="mui-icon mui-icon-forward mui-pull-right"style="padding-top: 0px;margin-right: 10px;"></span></span>
+		                    <p class="mui-ellipsis"style="font-size: 12px;">注册送放票哦~</p>
+		                </div>
+		            </a>
+		        </li>
+		    </ul>
+		    <ul class="mui-table-view mui-grid-view mui-grid-9"style="padding: 0; margin-left: -11px; width: 110%;background: #FFFFFF;">
+		    <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"style="border-bottom: none;border-right: none;">
+		        <a href="#">
+		            <span class="mui-icon iconfont icon-qianbao"></span>
+		            <div class="mui-media-body">钱包</div>
+		        </a>
+		    </li>
+		    <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"style="border-bottom: none;border-right: none;">
+		        <a href="#">
+		            <span class="mui-icon iconfont icon-youhuiquan"></span>
+		            <div class="mui-media-body">优惠券</div>
+		        </a>
+		    </li>
+		    <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"style="border-bottom: none;border-right: none;">
+		        <a href="#">
+		            <span class="mui-icon iconfont icon-yingbi"></span>
+		            <div class="mui-media-body">福利商城</div>
+		        </a>
+		    </li>
+		    
+		        </ul>
+		    
+		</header>
+		<p style="background: red;margin-top: 272px;"></p>
+		<!--下面12栅格开始-->
+		<ul class="mui-table-view mui-grid-view mui-grid-9" id="lo">
+		<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+		    <a href="#">
+		        <span class="mui-icon iconfont icon-xin"></span>
+		        <div class="mui-media-body">我的收藏</div>
+		    </a>
+		</li>
+		<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+		    <a href="#">
+		        <span class="mui-icon iconfont icon-shizhong"></span>
+		        <div class="mui-media-body">浏览记录</div>
+		    </a>
+		</li>
+		<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+		    <a href="#">
+		        <span class="mui-icon iconfont icon-qingdan"></span>
+		        <div class="mui-media-body">我的订单</div>
+		    </a>
+		</li>
+		<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+		    <a href="#">
+		        <span class="mui-icon iconfont icon-fangchan"></span>
+		        <div class="mui-media-body">我要卖房</div>
+		    </a>
+		</li>
+		<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+		    <a href="#">
+		        <span class="mui-icon iconfont icon-chuzu"></span>
+		        <div class="mui-media-body">我要出租</div>
+		    </a>
+		</li>
+		<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+		    <a href="#">
+		        <span class="mui-icon iconfont icon-qingdan1"></span>
+		        <div class="mui-media-body">看房清单</div>
+		    </a>
+		</li>
+		<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+		    <a href="#">
+		        <span class="mui-icon iconfont icon-baojia1"></span>
+		        <div class="mui-media-body">装修报价</div>
+		    </a>
+		</li>
+		<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+		    <a href="#">
+		        <span class="mui-icon iconfont icon-daikuan"></span>
+		        <div class="mui-media-body">我的贷款</div>
+		    </a>
+		</li>
+		<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+		    <a href="#">
+		        <span class="mui-icon iconfont icon-fangzicopy"></span>
+		        <div class="mui-media-body">帮你找房</div>
+		    </a>
+		</li>
+		   </ul>
+		<!--下面12栅格结束-->
+		<!--轮播开始-->
+		<div id="slider" class="mui-slider" >
+		  <div class="mui-slider-group mui-slider-loop">
+		    <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+		    <div class="mui-slider-item mui-slider-item-duplicate">
+		      <a href="#">
+		        <img src="../img/d5.png">
+		      </a>
+		    </div>
+		    <!-- 第一张 -->
+		    <div class="mui-slider-item">
+		      <a href="#">
+		      <img src="../img/d5.png">
+		      </a>
+		    </div>
+		    <!-- 第二张 -->
+		    <div class="mui-slider-item">
+		      <a href="#">
+		       <img src="../img/d6.png">
+		      </a>
+		    </div>
+		    <!-- 第三张 -->
+		    <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+		    <div class="mui-slider-item mui-slider-item-duplicate">
+		      <a href="#">
+		        <img src="../img/d6.png">
+		      </a>
+		    </div>
+		  </div>
+		  <div class="mui-slider-indicator">
+		    <div class="mui-indicator mui-active"></div>
+		    <div class="mui-indicator"></div>
+		  </div>
+		</div>
+		<!--轮播结束-->
+		<!--抖房区域开始-->
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		      <div class="swiper-slide">
+		      	<div>
+		      	<div><a class="iconfont icon-fangzicopy" style="font-size: 30px;"></a></div>
+		        <div>抖房</div>
+		        </div>
+		      </div>
+		      <div class="swiper-slide">Slide 2</div>
+		      <div class="swiper-slide">Slide 3</div>
+		      <div class="swiper-slide">Slide 4</div>
+		      <div class="swiper-slide">Slide 5</div>
+		      <div class="swiper-slide">Slide 6</div>
+		      <div class="swiper-slide">Slide 7</div>
+		      <div class="swiper-slide">Slide 8</div>
+		      <div class="swiper-slide">Slide 9</div>
+		      <div class="swiper-slide">Slide 10</div>
+		    </div>
+		    <!-- Add Pagination -->
+		    <!--<div class="swiper-pagination"></div>-->
+ 		 </div>
+		<!--抖房区域结束-->
+		<script>
+			var gallery = mui('.mui-slider');
+				gallery.slider({
+				interval:3000//自动轮播周期，若为0则不自动播放，默认为0；
+			});
+			 var swiper = new Swiper('.swiper-container', {
+		      slidesPerView: 3,
+		      //slidesPerView 设置slider容器能够同时显示的slides数量(carousel模式)。
+					//可以设置为数字（可为小数，小数不可loop），或者 'auto'则自动根据slides的宽度来设定数量。
+					//loop模式下如果设置为'auto'还需要设置另外一个参数loopedSlides。
+					//slidesPerView: 'auto'目前还不支持多行模式（当slidesPerColumn > 1）
+		      spaceBetween: 30,
+		      freeMode: true,
+		      //freeMode 默认为false，普通模式：slide滑动时只滑动一格，并自动贴合wrapper，设置为true则变为free模式，
+		      //slide会根据惯性滑动可能不止一格且不会贴合。
+		      pagination: {
+		        el: '.swiper-pagination',
+		        clickable: true,
+		      },
+		    });
+		</script>
+	</body>
+</html>
